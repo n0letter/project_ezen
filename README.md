@@ -1,3 +1,3 @@
 project_ezen!
 
-수정!
+이세영 수정
