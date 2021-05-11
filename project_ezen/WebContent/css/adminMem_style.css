@@ -1,0 +1,368 @@
+/* /admin_member/member_list.jsp 시작 */
+
+/* 관리자 회원 목록 */
+.memList_wrap {
+	width: 100%; 
+}
+
+/* 검색창 시작 */
+.ml_search_wrap {
+	display: flex; width: 950px; height: 100px; margin: 50px auto; 
+    padding: 28px; padding-left: 100px; position: relative;
+    border: 1px solid #aaa;
+}
+.ml_search_wrap div:nth-child(1) {
+    padding: 5px; width: 103px; height: 29px;  
+}
+.ml_search_wrap div:nth-child(2) {
+	padding: 5px; width: 454px; height: 29px;
+	margin-left: 30px; position: absolute; top: 23px; left: 210px;
+}
+.ml_search_wrap div:nth-child(3) {
+    padding: 5px; position: absolute; top: 23px; left: 700px;
+}
+.memList_select {
+    height: 29px; border: 1px solid #5467F5; color: #5a5a5a;
+    width: 103px; outline: none;
+}
+.ml_search_text {
+    height: 39px; width: 454px; border: 2px solid #5467F5;
+    outline: none; 
+}
+.ml_search_btn {
+    width: 80px; height: 39px; background-color: #5467F5;
+    margin-left: 30px; outline: none; border: 1px solid #5467F5;
+    color: #fff; 
+}
+/* 검색창 끝 */
+
+/* 회원 목록 시작 */
+.ml_table_wrap {
+	margin: 0 auto; width: 850px;
+}
+.ml_table_wrap h4 {
+	text-align: center; color: #5467F5; margin-top: 30px;
+}
+.memList_table {
+    width: 850px;  border-top: 3px solid #666; 
+    border-bottom: 1px solid #dbdbdb; color: #777777;
+}
+.memList_table tr {
+	border-bottom: 1px solid #dbdbdb;
+}
+.memList_table th {
+    color: #555555; font-size: 15px; vertical-align: middle; line-height: 27px;
+    height: 54px; background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+.memList_table td {
+    height: 54px; vertical-align: middle; line-height: 27px;
+    font-size: 15px; text-align: center;
+}
+.ml_t01 {
+    width: 100px;
+}
+.ml_t02 {
+    /* text-align: left; */
+}
+.ml_t02 a {
+    color: #777; text-decoration: none;
+}
+/* 회원 목록 끝 */
+
+/* 회원 목록 pagination 시작 */
+.ml_table_wrap ul {
+	margin-top:25px;
+}
+    
+/* 회원 목록 pagination 끝 */
+
+/* /admin_member/member_list.jsp 끝 */
+
+/* ================================================= */
+
+/* /admin_member/out_member_list.jsp 시작 */
+
+/* 관리자 탈퇴 회원 목록 */
+.out_memList_wrap {
+	width: 100%; 
+}
+.out_memList_wrap h4 {
+	color: #5467F5; padding-top: 30px;
+}
+/* 회원 목록 시작 */
+.oml_table_wrap {
+	margin: 50px 0 20px 0; 
+}
+.oml_table_wrap form {
+	width: 800px; margin: 0 auto; position: relative;
+}
+.oml_table_wrap ul {
+	margin-top:25px;
+}
+.oml_table_wrap h4 {
+	text-align: center;
+}
+.out_memList_table {
+    width: 800px;  border-top: 3px solid #666; margin: 0 auto;
+    margin-left: 20px;
+    border-bottom: 1px solid #dbdbdb; color: #777777;
+}
+.out_memList_table tbody {
+	/* position: absolute; */
+}
+.out_memList_table tr {
+	border-bottom: 1px solid #dbdbdb;
+}
+.out_memList_table th {
+    color: #555555; font-size: 15px; vertical-align: middle; line-height: 27px;
+    height: 54px; background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+.out_memList_table td {
+    height: 54px; vertical-align: middle; line-height: 27px;
+    font-size: 15px; text-align: center;
+}
+.oml_t01 {
+    width: 50px;
+}
+.oml_t02 {
+    /* text-align: left; */
+}
+.oml_t02 a {
+    color: black; text-decoration: none;
+}
+.oml_sel {
+	vertical-align: middle; line-height: 27px;
+	position: absolute;  border-top: 3px solid #666;
+	width: 50px; top: 0px; left: 0px;
+}
+.oml_sel01 {
+	vertical-align: middle; line-height: 27px;
+	position: absolute; 
+	width: 50px; top: 50px; left:0px;
+}
+.oml_sel01 tr {
+	height: 55px;
+}
+/* .oml_sel div {
+	height: 55px; vertical-align: middle; line-height: 54px;
+	border-bottom: 1px solid #dbdbdb; text-align: center;
+}
+.oml_sel div:first-child {
+	background-color: rgb(247, 247, 247); height: 53px;
+} */
+.om_del_btn_wrap {
+	width: 900px; margin: 0 auto; padding: 0 0 0 30px;; 
+}
+.om_del_btn {
+	width: 70px; height: 30px; outline: none; color: #fff;
+	background-color: #5467F5; border: none; 
+}
+/* 회원 목록 끝 */
+
+/* /admin_member/out_member_list.jsp 끝 */
+
+/* ================================================= */
+
+/* /admin_member/out_member_view.jsp 시작 */
+
+/* 섹션01 시작 */
+.omv_wrap {
+  width: 1080px; height: 505px; text-align: center; margin: 0 auto;
+}
+
+/* table 시작 */
+.omv_table {
+  width: 980px; margin: 0 auto; border-top: 3px solid rgb(92, 89, 89); 
+  margin-top: 80px;
+}
+.omvt_top {
+  width: 980px; height: 54px; display: flex;
+  font-size: 15px; vertical-align: middle; line-height: 54px;      
+  border-bottom: 1px solid rgb(124, 122, 122); 
+} 
+.omvt_top > div:nth-of-type(1) {
+  width: 200px; text-align: center; background-color: #f7f7f7;
+  font-size: 15px; font-weight: 600; color: #777777;
+}
+.omvt_top > div:last-child {
+  width: 700px;  text-align: left; padding-left: 10px; 
+  color: #777777;
+}
+.omvt_bottom {
+  width: 980px; min-height: 200px; color: #777777;
+  vertical-align: middle; line-height: 54px; text-align: left;
+  border-bottom: 1px solid rgb(124, 122, 122);
+  padding: 0 0 0 20px;
+}
+
+/* 목록 버튼 시작 */
+.om_list_wrap {
+	width: 100%; height: 30px; margin-top: 30px;
+}
+.om_list {
+	width: 80px; height: 30px; background-color: #5467F5;
+	border: none; color: #fff; 
+}
+.om_list:focus {
+	outline: none;
+}
+    
+/* /admin_member/out_member_view.jsp 끝 */
+    
+
+/* ================================================= */
+
+/* /admin_member/member_view.jsp 시작 */
+
+.mv_title {
+      color: #5467F5;
+    }
+.member_view_wrap {
+	clear: both; position: relative;
+    width: 1080px; margin: 0 auto; padding: 0;
+    margin-top: 80px;
+}
+.mv_table {
+    width: 100%; border-top: 2px solid #5467F5;
+    font-size: 15px;
+}
+.mv_table th {
+    color: #333; padding: 10px 20px;
+    text-align: left; font-size: 16px;
+    background-color: rgb(247, 247, 247); border-bottom: 1px solid #d9d9d9;
+    font-weight: normal; border-right: 1px solid #d9d9d9;
+}
+.mv_table td {
+    padding: 10px 15px; text-align: left;
+    border-bottom: 1px solid #d9d9d9;
+    color: #666; 
+}
+.mv_table td input[type=text], .mv_table td input[type=password] {
+    height: 34px; border: 1px solid #d2d2d2;
+    vertical-align: middle;
+}
+.mv_table a {
+	text-decoration: none;
+}
+.mv_table a:hover {
+	color: #fff;
+}
+.mv_table span.mv_small {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+.mv_table select {
+    min-width: 70px; height: 34px; padding: 3px;
+    font-family: inherit;
+    background: url(../img/member_image/join_select.gif) no-repeat 100% 100% #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d2d2d2; border-radius: 0px;
+    vertical-align: middle;
+}
+.mv_table td label {
+    margin-right: 20px;
+}
+.mv_btnArea {
+    position: relative; margin: 40px auto 70px auto;
+    text-align: center;
+}
+.mv_btn {
+    height: 35px; line-height: 35px; width: 80px;
+    font-size: 16px; 
+    vertical-align: top;  font-family:'notokr-b';
+    background: #5467F5; color: #fff; text-indent: 0px;
+    border: none; margin: 0 5px;
+}
+.mv_btn01 {
+	position: absolute; left: 10px; bottom: 0px;
+}
+.mv_btn03 {
+	background: #fff; color: #5467F5; border:1px solid #5467F5;
+	
+}
+.mv_btn04 {
+	position: absolute; right: 10px;
+}
+.join_date_wrap {
+	position: relative;
+}
+.join_date{
+	/* position: absolute; top: 13px; */ 
+	width: 100px;
+}
+#join_gender {
+	margin-left: 0px;
+}
+.mv_mid {
+	margin-top: 50px;
+}
+.mv_right {
+	width: 160px;
+}
+.mv_payResult {
+	background-color: #5467F5; border: 1px solid #5467F5;
+	color: #fff;
+}
+.mv_payResult a {
+	text-decoration: none; color: white;
+}
+
+/* /admin_member/member_view.jsp 끝 */
+
+/* ================================================= */
+
+/* /admin_member/pay_popUp.jsp 시작 */
+.mv_popUp_wrap {
+	padding: 10px; position: relative; height: 540px;
+}
+.mvp_title {
+	color: #5467F5; margin-top: 20px;
+}
+.mvp_table_wrap {
+	margin: 10px 0 50px 0;
+}
+.mv_popUp_table {
+    width: 500px;  border-top: 3px solid #666; margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb; color: #777777;
+    margin-bottom: 30px;
+}
+.mv_popUp_table tr {
+	border-bottom: 1px solid #dbdbdb;
+}
+.mv_popUp_table th {
+    color: #555555; font-size: 15px; vertical-align: middle; line-height: 20px;
+    height: 40px; background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+.mv_popUp_table td {
+    height: 40px; vertical-align: middle; line-height: 20px;
+    font-size: 15px; text-align: center;
+}
+.mvp_t01 {
+    width: 50px;
+}
+.mvp_close {
+	width: 70px; height: 30px; 
+	position: absolute; left:43%; bottom: 10px;
+	color: #fff; background: #5467F5; border: none;
+}
+.mvp_del {
+	width: 50px; height: 20px; 
+	color: #5467F5; background: #fff; border: 1px solid #5467F5;
+}
+
+/* /admin_member/pay_popUp.jsp 끝 */
+
+/* ================================================= */
+
+/* /admin_community/adminReview_view.jsp 시작*/
+.adrv01 {
+	width: 500px; text-align: center;
+}
+.adrv02 {
+	width:100px; text-align: center;
+}

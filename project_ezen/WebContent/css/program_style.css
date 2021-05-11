@@ -1,0 +1,869 @@
+/* /program/training.jsp 시작 */
+
+/* 프로그램 - 트레이닝 섹션 영역 시작 */
+
+.training_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; padding-top: 50px; 
+}
+.tr01_wrap {
+	width: 1080px; margin: 0 auto;
+}
+.tr01 {
+	display: flex; flex-direction: row;
+}
+.tr01_img {
+	width: 50%; margin-top: 45px;
+	background-image: url(https://cdn.pixabay.com/photo/2016/03/24/19/06/personal-1277392_960_720.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tr01_text {
+	width: 50%; height: 500px; text-align: right; padding-top: 15px;
+}
+.tr01_text i {
+	color: #5467F5; font-size: 40px; line-height: 36px;
+}
+.tr_text_gcolor {
+	color: #58595B;
+}
+.tr02 {
+	width: 100%; text-align: center; display: flex; flex-direction: column;
+	background-color: #f6f6f6;
+}
+.tr02_img {
+	width: 300px; height: 300px; margin: 0 auto;
+	background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxODExMjhfMjM5%2FMDAxNTQzMzkxNTA5OTc1.tE1WF6dSOCQQd3D7ZqnRdOGCyMjcFrUCeAxL20XOjyQg.WVzBliL29cU42pJuXYm0zLzopXjK5i2jnPtNyDyYbIcg.JPEG.044027%2F20181128_004341.jpg&type=sc960_832);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tr02_text {
+	padding-top: 50px;
+}
+.tr03 {
+	width: 100%; height: 450px;  display: flex; flex-direction: row;
+	margin-top: 50px;
+}
+.tr03_img {
+	width: 50%;
+	background-image: url(https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tr03_text {
+	padding: 100px 0 0 50px;
+}
+.tr03_text p {
+	text-align: left;
+}
+.tr04 {
+	width: 100%; height: 450px;  display: flex; flex-direction: row;
+}
+.tr04_text {
+	width: 50%;  padding: 100px 50px 0 0; text-align:right;
+}
+.tr04_text p {
+	text-align:right;
+}
+.tr04_img {
+	width: 50%;
+	background-image: url(https://cdn.pixabay.com/photo/2015/01/20/21/44/tutor-606091_960_720.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tr05 {
+	width: 100%; height: 450px;  display: flex; flex-direction: row;
+	margin-top: 50px;
+}
+.tr05_img {
+	width: 50%;
+	background-image: url(https://cdn.pixabay.com/photo/2017/04/25/20/18/sport-2260736_960_720.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tr05_text {
+	padding: 100px 0 0 50px;
+}
+.tr05_text p {
+	text-align:left;
+}
+/* 프로그램 - 트레이닝 섹션 영역 끝 */
+
+/* /program/training.jsp 끝 */
+
+/* ================================================================ */
+
+/* /program/PT.jsp 시작 */
+
+/* 프로그램 - PT 섹션 영역 시작 */
+.PT_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; margin-top: 50px; 
+}
+.pt01_wrap {
+	width: 1080px; margin: 0 auto;
+}
+.pt01 {
+	display: flex; flex-direction: row;
+}
+.pt01_img_wrap {
+	width: 50%; padding-left: 100px;
+}
+.pt01_img {
+	height:300px;
+	background-image: url(/project_ezen/img/program_image/acsm.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.pt01_img_wrap p {
+	text-align: left; padding-left: 10px;
+}
+.pt01_text {
+	width: 50%; height: 500px; text-align: right; padding: 50px 130px 0 0;
+}
+.pt01_text h2 {
+	color: #5467F5;
+}
+.pt01_text p {
+	text-align: right; 
+}
+.pt_text_gcolor {
+	color: #58595B;
+}
+.pt02_wrap {
+	background-color: #f6f6f6; width: 100%;
+	
+}
+.pt02 {
+	display: flex; flex-direction: row; 
+	width: 1080px; margin: 0 auto;
+}
+.pt02_img_wrap {
+	width:50%; padding: 50px 0 50px 50px;
+}
+.pt02_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/pt02_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.pt02_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+}
+.pt02_text h2 {
+	color: #5467F5;
+}
+.pt02_text p {
+	text-align: left; 
+}
+.pt03 {
+	display: flex; flex-direction: row;
+}
+.pt03_img_wrap {
+	width:50%; padding-left: 100px; padding: 100px 0 0 50px;
+}
+.pt03_img {
+	height:300px; 
+	background-image: url(/project_ezen/img/program_image/pt03_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.pt03_text {
+	width: 50%; height: 500px; text-align: right; padding: 130px 100px 0 0;
+}
+.pt03_text h2 {
+	color: #5467F5;
+}
+.pt03_text p {
+	text-align: right; 
+}
+/* 프로그램 - PT 섹션 영역 끝 */
+
+/* /program/PT.jsp 끝 */
+
+/* =============================================================== */
+
+/* /program/group_exercise.jsp 시작 */
+
+/* 프로그램 - group exercise 섹션 영역 시작 */
+.gx_wrap {
+	margin: 0 auto; width: 100%; margin-top: 50px; 
+}
+.gx00 {
+	width: 1080px; margin: 0 auto;  
+}
+.gx00 h2 {
+	color: #5467F5; padding-left: 25px; font-size: 35px;
+}
+.gx01_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.gx01 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.gx01_img_wrap {
+	width:50%; padding: 50px 0 50px 50px;
+}
+.gx01_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/gx01_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx01_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+}
+.gx01_text h2 {
+	color: #5467F5;
+}
+.gx01_text p {
+	text-align: left; 
+}
+.gx02_wrap {
+	width: 1080px; margin: 0 auto;
+}
+.gx02 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.gx02_img_wrap {
+	width:50%; padding: 50px 50px 50px 0;
+}
+.gx02_img {
+	height:400px; 
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/01/01/56/yoga-3053487_960_720.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx02_text {
+	width: 50%; height: 300px; text-align: right; padding: 130px 100px 0 0;
+}
+.gx02_text h2 {
+	color: #5467F5;
+}
+.gx02_text p {
+	text-align: right; 
+}
+.gx03 {
+	display: flex; flex-direction: row; height: 400px; margin-top: 50px;
+}
+.gx03_img_wrap {
+	width:50%; padding: 50px 0 50px 50px;
+}
+.gx03_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/gx03_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx03_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+}
+.gx03_text h2 {
+	color: #5467F5;
+}
+.gx03_text p {
+	text-align: left; 
+}
+.gx04 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.gx04_img_wrap {
+	width:50%; padding: 50px 50px 50px 0;
+}
+.gx04_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/gx04_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx04_text {
+	width: 50%; height: 300px; text-align: right; padding: 130px 100px 0 0;
+}
+.gx04_text h2 {
+	color: #5467F5;
+}
+.gx04_text p {
+	text-align: right; 
+}
+.gx05 {
+	display: flex; flex-direction: row; height: 400px; margin-top: 50px;
+}
+.gx05_img_wrap {
+	width:50%; padding: 50px 0 50px 50px;
+}
+.gx05_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/gx05_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx05_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+}
+.gx05_text h2 {
+	color: #5467F5;
+}
+.gx05_text p {
+	text-align: left; 
+}
+.gx06 {
+	display: flex; flex-direction: row; height: 400px;
+	padding-top: 50px; margin-bottom: 100px;
+}
+.gx06_img_wrap {
+	width:50%; padding: 50px 50px 50px 0;
+}
+.gx06_img {
+	height:500px; 
+	background-image: url(/project_ezen/img/program_image/gx06_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.gx06_text {
+	width: 50%; height: 300px; text-align: right; padding: 100px 100px 0 0;
+}
+.gx06_text h2 {
+	color: #5467F5;
+}
+.gx06_text p {
+	text-align: right; 
+}
+/* 프로그램 - group exercise 섹션 영역 끝 */
+
+/* /program/group_exercise.jsp  끝 */
+
+/* =============================================================== */
+
+/* /program/special_course.jsp 시작 */
+
+/* 프로그램 - special course 섹션 영역 시작 */
+.spe_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; margin-top: 50px; 
+}
+.spe00 {
+	width: 1080px; text-align: right; margin: 0 auto; 
+}
+.spe00 h2 {
+	color: #5467F5; padding-left: 25px; margin-right: 150px;
+	font-size: 35px;
+}
+.spe01_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.spe01 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.spe01_img_wrap {
+	width:50%; padding: 0 0 50px 50px;
+}
+.spe01_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/spe01_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.spe01_text {
+	width: 50%; height: 300px; text-align: left; padding: 50px 0 0 100px;
+}
+.spe01_text h2 {
+	color: #5467F5;
+}
+.spe01_text p {
+	text-align: left; 
+}
+.spe02_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.spe02 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.spe02_img_wrap {
+	width:50%; padding: 50px 50px 50px 0;
+}
+.spe02_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/spe02_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.spe02_text {
+	width: 50%; height: 300px; text-align: right; padding: 130px 100px 0 0;
+}
+.spe02_text h2 {
+	color: #5467F5;
+}
+.spe02_text p {
+	text-align: right; 
+}
+.spe03 {
+	display: flex; flex-direction: row; height: 400px; margin: 50px 0 100px 0;
+}
+.spe03_img_wrap {
+	width:50%; padding: 50px 0 50px 50px;
+}
+.spe03_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/program_image/spe03_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.spe03_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+}
+.spe03_text h2 {
+	color: #5467F5;
+}
+.spe03_text p {
+	text-align: left; 
+}
+/* 프로그램 - special course 섹션 영역 끝 */
+
+/* /program/special_course.jsp  끝 */
+
+/* =============================================================== */
+
+/* /program/pro_schdule.jsp 시작 */
+
+/* 프로그램 - schdule 섹션 영역 시작 */
+.schdule_wrap {
+	margin: 0 auto; width: 100%; margin-top: 50px; 
+}
+.sch_top {
+	width: 1080px;  margin: 0 auto; border: 1px solid #5467F5;
+}
+.sch_top h2 {
+	width: 1080px; text-align: center; color: #58595B; padding-top: 5px;
+}
+.sch_section {
+	width: 1080px;  margin: 0 auto; margin-bottom: 100px;
+}
+.sch_section h3 {
+	color: #5467F5; padding: 50px 0 0 200px; position: relative;
+}
+.star01_img {
+	width: 50px; height: 50px; display: inline-block;
+	background-image: url(/project_ezen/img/program_image/star01.png);
+	background-repeat: no-repeat; background-size: 35px;
+	position: absolute; left: 160px;
+}
+/* 프로그램 - schdule 섹션 영역 끝 */
+
+/* /program/pro_schdule.jsp  끝 */
+
+/* =============================================================== */
+
+/* 아래는 로그인 회원가입 페이지 CSS */
+
+/* /member/loginForm.jsp 시작 */
+.login_wrap {
+	width: 100%; margin: 100px 0; 
+}
+.login_wrap > h2 {
+	width: 800px; margin: 50px auto; text-align: center; 
+}
+.login_box {
+	width: 800px; margin: 0 auto; padding: 40px;
+	border: 1px solid #d9d9d9;
+}
+.login_box .login_form {
+	display: block; padding: 0 0 0 120px;
+}
+.login_box .login {
+	width: 800px; margin: 0 auto; position: relative;
+}
+.login_box .login a {
+	text-decoration: none;
+}
+.login_box .login p {
+	color: #8a8a8a; font-size: 13px; 
+}
+.login_box .login ul {
+	list-style: none; display: block; padding-left: 15px; 
+}
+.login_box .login li {
+	display: list-item; margin-bottom: 24px; 
+}
+.login_box .login input {
+	border: 1px solid #d9d9d9; width: 310px; height: 36px; text-indent: 10px;
+}
+.login_box .login input::placeholder {
+	color: #b9b9b9;
+}
+.login_box .login .loginBtn {
+	position: absolute; display: block; width: 100px; height: 96px;
+	background-color: #333; color: #fff; top: 54px; left: 334px;
+	font-size: 18px; font-family: 'Noto Sans KR', sans-serif; 
+	line-height: 94px; text-align: center; 
+	text-indent: 0px;
+}
+.btnJoin {
+	display: inline-block; height: 36px; line-height: 34px;
+	border: 1px solid #5467F5; padding: 0 25px; margin-right: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #5467F5; color: #fff;
+}
+.joinType1 {
+	background-color: #fff; color: #5467F5;
+}
+.login_red {
+	margin-top: -20px; color: red; padding-left: 10px;
+}
+.btnJoin_wrap {
+	display: flex; flex-direction: row; 
+}
+/* 마우스오버시 색이 파란색으로 변하는 것을 변하지 않도록 아래처럼 처리, 왜 변하는지 못 찾음 */
+.btnJoin_wrap:hover .login_btn01 a {
+	color: #fff;
+}
+.btnJoin_wrap:hover .login_btn02 a {
+	color: #5467F5;
+}
+/* /member/loginForm.jsp 끝 */
+
+/* =========================================================== */
+
+/* /member/find_id_pw.jsp 시작 */
+.find_wrap {
+	width: 100%; margin: 100px 0; 
+}
+.find_wrap > h2 {
+	width: 1000px; margin: 50px auto; text-align: center; 
+}
+.find_box {
+	width: 1000px; height: 530px; margin: 0 auto; padding: 70px 100px;
+	border: 1px solid #d9d9d9; 
+}
+.find_box a {
+	text-decoration: none;
+}
+.find_inbox {
+	display: flex; flex-direction: row;
+	justify-content: space-between; padding-left: 35px;
+}
+.find_left {
+	width:500px; padding: 50px 0 0 30px;
+}
+.find h5 {
+	font-size: 18px; font-weight: bold; 
+}
+.find p {
+	color: #8a8a8a; font-size: 13px; 
+}
+.find ul {
+	list-style: none; display: block; 
+}
+.find li {
+	display: list-item; margin-bottom: 24px; 
+}
+.find input {
+	border: 1px solid #d9d9d9;
+	width: 285px; height: 36px; text-indent: 10px;
+}
+.find input::placeholder {
+	color: #b9b9b9;
+}
+.find_right {
+	width:500px; padding: 50px 0 0 30px;
+}
+.joinArea {
+	border-top: 1px dashed #d9d9d9; margin-top: 30px;
+	padding: 30px 30px 0 60px; 
+}
+.joinArea .find_wide {
+	float: right;
+}
+.find_wide {
+	width: 138px; text-align: center;
+}
+.joinArea:hover .joinArea_btn a {
+	color: #fff;
+}
+.find_img_wrap {
+	position: relative;
+}
+.find_img_wrap login_btn02 {
+	padding-left: 50px;
+}
+.find_img input {
+	position: absolute;  width: 138px; left: 0px; border: none;
+	background-color: #5467F5; color: #fff; text-indent: 0px;
+}
+#finded_id {
+	outline: none; border: none; width: 160px; color: #5467F5;
+	text-align: center;
+}
+#id_move {
+	outline: none; border: none; width: 160px; color: #fff;
+	text-align: center;
+}
+#pw_move {
+	outline: none; border: none; width: 160px; color: #fff;
+	text-align: center; 
+}
+/* /member/find_id_pw.jsp 끝 */
+
+/* =========================================================== */
+
+/* /member/join_agree.jsp 시작 */
+.agree_wrap {
+	clear: both; position: relative; width: 1080px;
+	margin: 0 auto; padding: 0; font-size: 14px;
+	margin-top: 100px;
+}
+.agree_wrap h4 {
+	font-size: 16px; margin-bottom: 15px;
+}
+.agreeBox {
+	border: 1px solid #d9d9d9; height: 280px; overflow: auto;
+    box-sizing: border-box; padding: 0px 20px;
+    color: #666; white-space: pre-line;
+}
+.btnAgree {
+    text-align: right;
+    margin: 10px 0 50px 0;
+}
+.tbAg {
+    clear: both; width: 100%; margin: 10px 0 0 0;
+    border: 1px solid #ddd; font-size: 13px;
+}
+.agree_wrap table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tbAg th {
+    padding: 10px; background: #f0f0f0;
+    border: 1px solid #ddd; text-align: center;
+    font-weight: normal;
+}
+.tbAg td {
+    padding: 10px; text-align: center;
+    border: 1px solid #ddd;
+}
+
+.agree_gBox {
+    clear: both; width: 100%; background: #f4f4f4;
+    text-align: center; padding: 15px;
+    margin-bottom: 30px;
+}
+input[type='checkbox'], input[type='radio'] {
+    margin: 0; position: relative; top: 1px;
+}
+.btnAgree_area {
+    position: relative;  
+    margin: 40px auto 70px auto;
+    text-align: center;
+}
+.agree_btn {
+    display: inline-block; background: #333; 
+    color: #fff; height: 60px;
+    line-height: 60px; font-size: 18px;
+    padding: 0 60px; vertical-align: top;
+    font-family: 'notokr-b';
+}
+.pt70 {
+    clear: both;
+    padding-top: 70px;
+}
+
+/* /member/join_agree.jsp 끝 */
+
+/* =========================================================== */
+
+/* /member/joinForm.jsp 시작 */
+.join_wrap {
+	clear: both; position: relative;
+    width: 1080px; margin: 0 auto; padding: 0;
+    margin-top: 100px;
+}
+.join_table {
+    width: 100%; border-top: 2px solid #5467F5;
+    font-size: 15px;
+}
+.join_table th {
+    color: #333; padding: 10px 20px;
+    text-align: left; font-size: 16px;
+    background: #fff; border-bottom: 1px solid #d9d9d9;
+    font-weight: normal;
+}
+.join_table td {
+    padding: 10px 15px; text-align: left;
+    border-bottom: 1px solid #d9d9d9;
+    color: #666;
+}
+.join_table td input[type=text], .join_table td input[type=password] {
+    height: 34px; border: 1px solid #d2d2d2;
+    vertical-align: middle; padding-left: 1px;
+}
+.btn_join {
+    display: inline-block;
+    height: 34px; line-height: 32px;
+    background: #5467F5; border: 1px solid #5467F5;
+    color: #fff; padding: 0 25px; margin: 0 5px;
+    vertical-align: top; 
+}
+.join_table a {
+	text-decoration: none;
+}
+.join_table a:hover {
+	color: #fff;
+}
+.join_table span.join_small {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+.join_table select {
+    min-width: 70px; height: 34px; padding: 3px;
+    font-family: inherit;
+    background: url(../img/member_image/join_select.gif) no-repeat 100% 100% #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d2d2d2; border-radius: 0px;
+    vertical-align: middle;
+}
+.join_table td label {
+    margin-right: 20px;
+}
+.join_btnArea {
+    position: relative; margin: 40px auto 70px auto;
+    text-align: center;
+}
+.join_btn {
+    display: inline-block;
+    height: 60px; line-height: 60px;
+    font-size: 18px; padding: 0 60px;
+    vertical-align: top; font-family:'notokr-b'; 
+    background: #333; color: #fff;
+}
+.join_btnArea a {
+    margin: 0 2px;
+}
+.join_date_wrap {
+	position: relative;
+}
+.join_date{
+	/* position: absolute; top: 13px; */
+}
+ #join_gender {
+	margin-left: 0px;
+} 
+/* /member/joinForm.jsp 끝 */
+
+/* back-to-top 시작 */
+.scroll-top.is-showing {
+    bottom: 20px; opacity: 0.8;
+}
+.scroll-top {
+    position: fixed; display: inline-block;
+    right: 20px; bottom: 0;
+    width: 45px; height: 45px;
+    font-size: 18px; color: #fff;
+    line-height: 42px; text-align: center;
+    cursor: pointer; border-radius: 100%; opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+i {
+	font-size: 50px; 
+}  
+
+/* back-to-top 끝 */
+
+/* =======================5월================================= */
+
+/* 검색창 시작 */
+/* .ml_search_wrap {
+	display: flex; width: 950px; height: 100px; margin: 50px auto; 
+    padding: 28px; padding-left: 100px; position: relative;
+    border: 1px solid #aaa;
+}
+.ml_search_wrap div:nth-child(1) {
+    padding: 5px; width: 103px; height: 29px;  
+}
+.ml_search_wrap div:nth-child(2) {
+	padding: 5px; width: 454px; height: 29px;
+	margin-left: 30px; position: absolute; top: 23px; left: 210px;
+}
+.ml_search_wrap div:nth-child(3) {
+    padding: 5px; position: absolute; top: 23px; left: 700px;
+}
+.memList_select {
+    height: 29px; border: 1px solid #5467F5; color: #5a5a5a;
+    width: 103px; outline: none;
+}
+.ml_search_text {
+    height: 39px; width: 454px; border: 2px solid #5467F5;
+    outline: none; 
+}
+.ml_search_btn {
+    width: 80px; height: 39px; background-color: #5467F5;
+    margin-left: 30px; outline: none; border: 1px solid #5467F5;
+    color: #fff; 
+} */
+/* 검색창 끝 */
+
+
+/* reReply_modify.jsp 시작 */
+
+.reReply_mo_wrap {
+	width: 1080px; margin: 0 auto; padding-top: 50px;
+}
+.reReMo_title {
+	width:600px; margin: 0 auto; padding-bottom: 10px;
+}
+.reReply_mo_notice {
+	text-align: center; margin: 0 auto; margin-bottom:50px; width: 600px; 
+	border: 1px solid #5467F5; padding-top; 8px;
+}
+.reReply_mo_notice p {
+	color: #5a5a5a; margin-bottom: 0; padding: 5px;
+}
+.reReply_text {
+	text-align: center;
+}
+.rm_btnArea {
+    position: relative; margin: 40px auto 70px auto;
+    text-align: center;
+}
+.rm_btn {
+    height: 35px; line-height: 35px; width: 80px;
+    font-size: 16px; 
+    vertical-align: top;  font-family:'notokr-b';
+    background: #5467F5; color: #fff; text-indent: 0px;
+    border: none; margin: 0 5px;
+}
+.rm_btn03 {
+	background: #fff; color: #5467F5; border:1px solid #5467F5;
+	
+}
+.rrt_area {
+	width:580px; height:150px; resize: none;
+	outline: none;
+}
+
+
+
+/* reReply_modify.jsp 끝 */
+
+
+
+/* ckeditor */
+.ckeditor {
+	line-height:18px; word-break: break-all; word-wrap: break-word;
+}
+.textTest {
+	word-break: break-all;
+	display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 100%;
+    height: 56px;
+    padding: 6px 0 0;
+    margin: 0;
+    padding-right: 16px;
+    border: none;
+    color: #333;
+    background-color: transparent;
+    background-color: rgba(255,255,255,.001);
+    font-size: 12px;
+    line-height: 18px;
+    -webkit-appearance: none;
+    vertical-align: top;
+    resize: none;
+    box-sizing: border-box;
+}
+
+
+

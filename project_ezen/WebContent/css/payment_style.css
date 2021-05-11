@@ -1,0 +1,516 @@
+/* /payment/guide.jsp 시작 */
+
+/* 온라인결제 - 결제안내 영역 시작 */
+
+    .guide_wrap {
+      width: 1130px;
+      margin: 0 auto;
+    }
+    .payment_small {
+      color: #5467F5;
+    }
+    /* 결제안내01 */
+    .guide_A {
+      width: 70%;
+      margin: 100px auto 0 auto;
+      text-align: center;
+      border: 3px solid rgba(158, 155, 155, 0.5);
+    }
+    .guide_A h2 {
+      margin: 20px;
+      color: #58595B;
+    }
+    .guide_A hr {
+      width: 65%;
+      margin: 0 auto 0 auto;
+    }
+    .guide_A p {
+      margin: 0 20px 20px 20px;
+    }
+    /* guide_B */
+    .guide_B {
+      width: 70%;
+      margin: 20px auto 0 auto;
+      text-align: center;
+    }
+    .guide_B h2 {
+      color: #58595B;
+    }
+    .guide_B_01 {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .guide_Shape {
+      width: 145px;
+      height: 145px;
+      margin: 0 auto 0 auto;
+      border-radius: 50%;
+      background-color: #5467F5;
+    }
+    .guide_Shape p {
+      margin: 8%;
+      font-size: 73px;
+      color: white;
+    }
+    .guide_B_02 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      color: #58595B;;
+    }
+    .guide_B_text {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0 auto 0 auto;
+    }
+    /* 버튼 */
+    .guide_btn {
+      width: 100px;
+      height: 30px;
+      margin-bottom: 100px;
+      font-size: 16px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+    }
+    .guide_btn:hover, .guide_btn:active {
+      color: white;
+      background-color: #5467F5;
+    }
+    
+/* 온라인결제 - 결제안내 영역 끝 */
+
+/* /payment/guide.jsp 끝 */
+
+/* /payment/choice.jsp 시작 */
+
+/* 온라인결제 - 상품선택 영역 시작 */
+
+	.choice_wrap {
+      width: 1130px;
+      margin: 100px auto;
+    }
+    .choiceform {
+      display: flex;
+    }
+    .choice {
+      width: 65%;
+      margin-left: 40px;
+    }
+    .choice_title h4 {
+      margin-bottom: 8px;
+      color: #58595B;
+    }
+    /* 일반회원권선택 */
+	.choice_A {  
+      display: flex;
+      justify-content: center;
+    }
+    .choice_img_A {
+      margin: 40px 0 20px 20px;
+      width: 380px;
+      height: 200px;
+    }
+    .choice_side_A {
+      margin: 38px 0 0 15px;
+    }
+    .choice_side_A_text_A, .choice_side_B_text_B {
+      margin-bottom: 14px;
+      color: #58595B;
+    }
+    .choice_select_A, .choice_select_B {
+      width: 180px;
+      height: 28px;
+      font-size: 13px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+    }
+    .DatePicker {
+      width: 100px;
+      height: 27px;
+      font-size: 13px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+    }
+    .choice_side_A_text_B {
+      margin-top: 20px;
+      margin-bottom: 14px;
+      color: #58595B;
+    }
+    .choice_A_guide {
+      margin-left: 80px; 
+    }
+    .choice_A_guide p, .choice_B_guide p{
+      font-size: 13px;
+      color: #58595B;
+    }
+    .choice_A_guide small, .choice_B_guide small{
+      font-size: 6px;
+      font-weight: normal;
+      color: #58595B;
+    }
+    .choice_A_guide_bold, .choice_B_guide_bold {
+      font-weight: bold;
+    }
+    .choice_hr {
+      width: 85%;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    /* 스페셜회원권선택 */
+    .choice_B {  
+      margin-top: 22px;
+      margin-right: 70px;
+      margin-left: 85px;
+      display: flex;
+      justify-content: center;
+    }
+    .choice_img_B {
+      margin: 0 0 20px 0;
+      width: 380px;
+      height: 200px
+    }
+    .choice_side_B {
+      margin: 0 0 0 15px;
+    }
+    .choice_B_guide {
+      margin: 0 0 55px 80px;
+    }
+    /* 결제예정금액 */
+    .choice_amount {
+      margin-top: 45px;
+      margin-left: 50px;
+    }
+    .choice_amount_A {
+      width: 350px;
+      height: 265px;
+      border: 2px solid rgba(116, 116, 116, 0.5);
+    }
+    .choice_amount_title {
+      margin: 40px;
+      color: #58595B;
+    }
+    .choice_amount_text {
+      margin-bottom: 30px 
+    }
+    .choice_amount_A-01 {
+      margin: 0 40px 20px 40px;
+      display: flex;
+      justify-content : space-between;
+    }
+    .choice_amount_A-02 {
+      padding: 15px 38px 0 38px;
+      height: 60px;
+      display: flex;
+      justify-content : space-between;
+      border-top: 2px solid rgba(116, 116, 116, 0.5);
+      background-color: whitesmoke;
+    }
+    .choice_amount_A-02 span {
+      font-size: 19px;
+      font-weight: bold;
+      color: #58595B;
+    }
+    .optionValue {
+      width: 80px;
+      font-size: 16px;
+      text-align: right;
+      margin-right: 5px;
+      color: #58595B;
+      outline: none;
+      border: none;
+    }
+    .pay_amount {
+      width: 80px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: right;
+      margin-right: 2spx;
+      color: #5467F5;
+      background-color: whitesmoke;
+      outline: none;
+      border: none;
+    }
+    /* 버튼 */
+    .choice_btn {
+      width: 350px;
+      height: 35px;
+      margin-top: 12px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: none;
+      background-color: #5467F5;
+      color: white;
+      outline: none;
+    }
+    .choice_btn:active, .choice_btn:hover{
+      border-radius: 10px;
+      background-color: #5467F5;
+      outline: none;
+    }
+    /* 텍스트 숨기기 */
+    .hidden {
+      color: white;
+      border: none;
+      outline: none;
+    }
+    
+/* 온라인결제 - 상품선택 영역 끝 */
+
+/* /payment/choice.jsp 끝 */
+
+/* /payment/pay.jsp 시작 */
+
+/* 온라인결제 - 결제하기 영역 시작 */
+
+	.pay_wrap {
+      width: 700px;
+      margin: 100px auto;
+    }
+    .pay_title h4{
+      margin-bottom: 8px;
+      color: #58595B;
+    }
+    .pay_title hr{
+      width: 60%;
+    }
+    /* 회원정보 확인 */
+    .pay_A {
+      margin-bottom: 16px;
+    }
+    .pay_A_title {
+      width: 60%;
+      margin-top: 30px;
+      margin-bottom: 7px;
+      display: flex;
+      justify-content : space-between;
+    }
+    .pay_A_title h5 {
+      color: #58595B;
+    }
+    .pay_btnA {
+      width: 95px;
+      height: 23px;
+      font-size: 12px;
+      color: #58595B;
+      border: 1px solid rgba(116, 116, 116, 0.5);
+      background-color: white;
+      outline: none;
+    }
+    .paytext {    
+      font-size: 15px;
+      color: #58595B;
+      outline: none;
+      border: none;
+    }
+    .pay_A_table table{
+      width: 60%;
+      height: 155px;    
+      border-top: 2px solid rgba(116, 116, 116, 0.5);
+      border-bottom: 2px solid rgba(116, 116, 116, 0.5);
+    }
+    .pay_A_table th {
+      width: 30%;
+      padding: 0 18px 0 0;    
+      text-align: right;
+      color: #58595B;
+      background-color: #fafafa;
+      border-bottom: 1px solid rgba(116, 116, 116, 0.5);    
+    }
+    .pay_A_table td { 
+      padding: 0 0 0 18px;
+      color: #58595B;    
+      border-bottom: 1px solid rgba(116, 116, 116, 0.5);
+      border-left: 1px solid rgba(116, 116, 116, 0.5);
+    }
+	/* 결제금액 확인 및 결제수단 선택 */
+	.pay_B_title {
+	  margin-top: 30px;
+	  margin-bottom: 15px;
+	  color: #58595B;
+    }
+	.pay_B table {
+	  width:100%;
+      border-top: 2px solid rgba(116, 116, 116, 0.5);
+      border-bottom: 2px solid rgba(116, 116, 116, 0.5);
+	}
+	.pay_B th {
+	  height: 38px;
+	  width: 18%;
+      padding: 0 18px 0 0;    
+      text-align: right;
+      color: #58595B;  
+      background-color: #fafafa;
+      border-bottom: 1px solid rgba(116, 116, 116, 0.5);   
+	}
+	.pay_B td {
+	  height: 38px;
+      padding: 0 0 0 18px;
+      color: #58595B;  
+      border-bottom: 1px solid rgba(116, 116, 116, 0.5);
+      border-left: 1px solid rgba(116, 116, 116, 0.5);
+	}
+	.pay_coupon {
+	  width: 70px;
+	  padding-left: 5px; 
+	  margin-right: 5px;
+	  font-size: 15px;
+      border-bottom: 1px solid #58595B;
+      color: #58595B;
+      outline: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+	}
+	.pay_coupon_btn {
+      width: 55px;
+      height: 20px;
+      font-size: 10px;
+      margin-top: 2px;
+      background-color:rgba(158, 155, 155, 0.5);
+      color: white;
+      border: none;
+      outline: none;
+    }
+    .pay_B lable {
+      font-size: 15px;
+      color: #58595B;
+    }
+    .payamount {
+      width: 52px;
+      font-size: 15px;
+      color: #58595B;
+      outline: none;
+      border: none;
+    }
+    .pay_radio {
+      margin: 9px 5px 9px 5px;
+    }
+    /* 버튼 */
+    .pay_hr {
+      margin-top: 45px;
+    }
+    .pay_btnB {
+      width: 100px;
+      height: 30px;
+      margin: 0 0 0 43%;
+      font-size: 16px;
+      background-color: #5467F5;
+      color: white;
+      border: none;
+      outline: none;
+    }
+    .pay_btnC {
+      width: 60px;
+      height: 30px;
+      margin-left: 232px;
+      font-size: 15px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+    }
+/* 온라인결제 - 결제하기 영역 끝 */
+
+/* /payment/pay.jsp 끝 */
+
+/* /payment/pay_coupon.jsp 시작 */
+
+/* 온라인결제 - 쿠폰함 영역 시작 */
+
+    .pcoupon_wrap {
+      margin-top: 25px;
+      margin-left: 30px;
+    }
+    .pcoupon_wrap h3 {
+      margin-bottom: 5px;
+      color: #58595B;
+    }
+    .pcoupon_wrap hr {
+      width: 91%;
+      margin-bottom: 10px;
+    }
+    .pcoupon {
+      margin: 3px;
+    }
+    /* 버튼 */
+    .pcoupon_buttons {
+      margin-top: 15px;
+    }
+    .pcoupon_sub {
+      width: 80px;
+      height: 23px;
+      margin: 0 0 0 24%;
+      font-size: 15px;
+      background-color: #5467F5;
+      color: white;
+      border: none;
+      outline: none;
+    }
+    .pcoupon_but {
+      width: 80px;
+      height: 23px;
+      margin-left: 10px;
+      font-size: 15px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+    } 
+
+/* 온라인결제 - 쿠폰함 영역 끝 */
+
+/* /payment/pay_coupon.jsp 끝 */
+
+/* /payment/paymentend.jsp 시작 */
+
+/* 온라인결제 - 결제완료 영역 시작 */
+
+    .paymentend_wrap {
+      width: 1130px;
+      margin: 100px auto;
+      text-align: center;
+    }
+    .paymentend_img {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 30px;
+      border: 3px dashed rgba(158, 155, 155, 0.5);
+    }
+    .paymentend_title {
+      width: 650px;
+      margin: 0 auto;
+      color: #58595B;
+    }
+    .paymentend_text_A {
+      margin-top: 30px;
+      font-weight: bold;
+      color: #58595B;
+    }
+    .paymentend_text_B {
+      color: #58595B;
+    } 
+    /* 버튼 */
+    .paymentend_btn {
+      width: 100px;
+      height: 30px;
+      margin-top: 25px;
+      font-size: 16px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+    }
+    .paymentend_btn:hover, .paymentend_btn:active {
+      color: white;
+      background-color: #5467F5;
+    }
+
+/* 온라인결제 - 결제완료 영역 끝 */
+
+/* /payment/paymentend.jsp 끝 */

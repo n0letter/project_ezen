@@ -1,0 +1,361 @@
+.health_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; margin-top: 50px; 
+}
+
+.he01_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.he01 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.he01_img_wrap {
+	width:50%; padding: 70px 0 50px 55px;
+	
+}
+.he01_img {
+	height:380px; 
+	background-image: url(/project_ezen/img/intro_image/he01_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.he01_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+	margin-left: -50px;
+	
+}
+.he01_text h2 {
+	color: #5467F5;
+}
+.he01_text p {
+	text-align: left; 
+}
+.he02_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.he02 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.he02_img_wrap {
+	width:50%; padding: 70px 55px 50px 0;
+}
+.he02_img {
+	height:380px; 
+	background-image: url(/project_ezen/img/intro_image/he02_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.he02_text {
+	width: 50%; height: 300px; text-align: right; padding: 170px 40px 0 1px;
+	
+}
+.he02_text h2 {
+	color: #5467F5;
+}
+.he02_text p {
+	text-align: right; 
+}
+.he03_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.he03 {
+	display: flex; flex-direction: row; height: 400px; margin: 15px 0 150px 0;
+}
+.he03_img_wrap {
+	width:50%; padding: 70px 0 50px 55px;
+}
+.he03_img {
+	height:380px; 
+	background-image: url(/project_ezen/img/intro_image/he03_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.he03_text {
+	width: 50%; height: 300px; text-align: left; padding: 130px 0 0 100px;
+	margin-left: -50px;
+}
+.he03_text h2 {
+	color: #5467F5;
+}
+.he03_text p {
+	text-align: left; 
+}
+.facility_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; margin-top: 50px; 
+}
+
+.fac01_wrap {
+	width: 1080px; margin: 0 auto; 
+	text-align:center;
+		
+}
+.fac04_wrap {
+	width: 1080px; margin: 0 auto; 
+	text-align:center;
+		
+}
+.fac07_wrap {
+	width: 1080px; margin: 0 auto; 
+	text-align:center;
+}
+
+
+.fac01_img_wrap {
+	 
+	width:300px;
+	margin-top:150px;
+	margin-left: -50px;
+
+}
+.fac02_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 350px;
+
+}
+.fac03_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 750px;
+
+}
+.fac04_img_wrap {
+	 
+	width:300px;
+	margin-top:100px;
+	margin-left: -880px;
+    display: inline-block;
+}
+.fac05_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 350px;
+
+}
+.fac06_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 750px;
+
+}
+.fac07_img_wrap {
+	 
+	width:300px;
+	margin-top:100px;
+	margin-left: -880px;
+    display: inline-block;
+
+}
+.fac08_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 350px;
+    
+}
+.fac09_img_wrap {
+	 
+	width:300px;
+	margin-top:-400px;
+	margin-left: 750px;
+margin-bottom: 100px;
+}
+
+.fac01_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac01_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.fac02_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac02_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}.fac03_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac10_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.fac04_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac04_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.fac05_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac05_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}.fac06_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac06_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}.fac07_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac07_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.fac08_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac08_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.fac09_img {
+	height:400px; 
+	background-image: url(/project_ezen/img/intro_image/fac09_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+
+
+.trainer_wrap {
+	margin: 0 auto; width: 100%; min-width: 1080px; margin-top: 50px; 
+}
+
+.tra01_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.tra01 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.tra01_img_wrap {
+	width:550px; 
+	margin-top:100px;
+	margin-left: -1px;
+}
+.tra01_img {
+	height:550px; 
+	background-image: url(/project_ezen/img/intro_image/tra01_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tra01_text {
+	width: 50%; height: 300px; text-align: left; padding: 200px 0 0 1px;
+	margin-left: -50px;
+	font-weight:bold;
+	font-size: 1rem;
+}
+.tra01_text h2 {
+	color: #5467F5;
+	
+}
+.tra01_text p {
+	text-align: center; 
+}
+
+.tra02_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.tra02 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.tra02_img_wrap {
+	width:550px; 
+	margin-top:100px;
+	margin-left: -10px;
+}
+.tra02_img {
+	height:550px; 
+	background-image: url(/project_ezen/img/intro_image/tra02_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tra02_text {
+	width: 50%; height: 300px; text-align: left; padding: 200px 0 0 1px;
+	margin-left: -50px;
+	font-weight:bold;
+	font-size: 1rem;
+}
+.tra02_text h2 {
+	color: #5467F5;
+}
+.tra02_text p {
+	text-align: center; 
+}
+
+
+.tra03_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.tra03 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.tra03_img_wrap {
+	width:550px; 
+	margin-top:150px;
+	margin-left: -1px;
+	margin-bottom: 100px;
+}
+.tra03_img {
+	height:550px; 
+	background-image: url(/project_ezen/img/intro_image/tra03_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tra03_text {
+	width: 50%; height: 300px; text-align: left; padding: 200px 0 0 1px;
+	margin-left: -30px;
+	font-weight:bold;
+	font-size: 1rem;
+}
+.tra03_text h2 {
+	color: #5467F5;
+	
+}
+.tra03_text p {
+	text-align: center; 
+}
+
+.tra04_wrap {
+	width: 1080px; margin: 0 auto; 
+}
+.tra04 {
+	display: flex; flex-direction: row; height: 400px;
+}
+.tra04_img_wrap {
+	width:550px; 
+	margin-top:150px;
+	margin-left: -30px;
+}
+.tra04_img {
+	height:550px; 
+	background-image: url(/project_ezen/img/intro_image/tra04_img.jpg);
+	background-repeat: no-repeat; background-size: contain;
+}
+.tra04_text {
+	width: 50%; height: 300px; text-align: left; padding: 200px 0 0 1px;
+	margin-left: -50px;
+	font-weight:bold;
+	font-size: 1rem;
+}
+.tra04_text h2 {
+	color: #5467F5;
+}
+.tra04_text p {
+	text-align: center; 
+}
+  .trint {
+    	margin-top: 150px;
+    /* 	margin-bottom: 50px; */
+    }
+       
+    .trainner_int {
+	  width: 450px;
+      height: 28px;
+      font-size: 14px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+	}
+    
+    .trint img{
+    	 width: 300px;
+     	 height: 400px;
+    }
+    
+
+	.trainer_intro {
+	margin: 0 auto; width: 30%; min-width: 1080px; margin-top: 200px; 
+	margin-bottom: 100px;
+	}
+	.trainer_intro_text {
+	text-align: center;
+	font-weight:bold;
+	font-size: 1rem;
+	 border:1px solid black;
+}
+		

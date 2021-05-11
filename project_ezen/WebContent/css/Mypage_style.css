@@ -1,0 +1,268 @@
+/* 마이페이지-메뉴 */
+    .mypage_header_img {
+      min-width: 1080px;  margin-top:150px;
+      height: 280px;
+      background-image: url(http://www.hellogym.com/default/img/_designcoco/images/sub_top_bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center; background-size: 1920px 500px;
+    } 
+    .mypage_wrap {
+	  margin: 0 auto; width: 100%; margin-top: 50px; 
+	        margin-bottom:80px;	
+    }
+    .mypage_menu {
+	  width: 1080px; margin: 0 auto; position: relative;
+    }
+    .mypage_menutable {
+      width: 190px; height: 150px; border: 3px solid black;
+	  margin-top: 100px;
+	  margin-right: 85px;
+	  margin-bottom: 100px;
+    }
+    .mypage_wrap th {
+      width: 100px; height: 64px; text-align: center; padding: 20px;
+      background-color: #fafafa; color: #555;   	
+    }
+    .mypage_menu {
+	  display: flex; 
+	  justify-content: center;
+    }
+	.mypage_menutable td {
+      width: 100px; height: 64px; text-align: center; padding: 20px;
+      color: #555; background-color: #fafafa;
+    }
+	.mypage_wrap a {
+	  text-decoration:none;
+	}	
+	.mypage_member_top{
+			 margin: auto 0px;
+		}
+	.mypage_member_top h4{
+	  margin-bottom: 15px;
+	}
+		
+		
+		
+		.mypage_member_table {
+			border: 3px solid black;
+		}
+		.mypage_member_table input {
+			width: 120px;
+		}
+		.mypage_member_table td {
+			width: 450px;
+			padding-left: 20px;
+			border-bottom: 1px solid rgba(116, 116, 116, 0.5);
+		}
+		.mypage_member_table th {
+			width: 450px;
+			padding-left: 20px;
+			border-right: 1px solid rgba(116, 116, 116, 0.5);
+		}
+		
+/* 쿠폰함 */
+		.mypage_popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+	margin-left: 280px;
+}
+.mypage_popup .mypage_popuptext {
+  visibility: hidden;
+  width: 230px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 1%;
+  margin-left: -92px;
+}
+.mypage_popup .mypage_popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.mypage_popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+.mypage_member_table th {
+	border-bottom: 1px solid gray;
+	width: 150px;
+}
+.mypage_member_table td {
+	border-bottom: 1px solid gray;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/* 마이페이지 - 회원정보 영역 끝 */
+
+/* /mypage/mypage.jsp 끝 */
+
+/* 개인정보 수정 */
+.mypage_modify_table {
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+.mypage_modify_table input {
+	width: 250px;
+}
+.mypage_modify_table td {
+	width: 450px;
+	padding: 20px;
+	border-bottom: 1px solid rgba(116, 116, 116, 0.5);
+	
+}
+.mypage_modify_table th {
+width: 150px;
+border-right: 1px solid rgba(116, 116, 116, 0.5);
+border-bottom: 1px solid rgba(116, 116, 116, 0.5);
+}
+.mypage_modify_table td input{
+   
+      width: 180px;
+      font-size: 14px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+}
+.mypage_modify_table td label input {
+    margin-right: -10px; width:50px;
+}
+.mypage_pass th {
+      border: 3px dashed rgba(158, 155, 155, 0.5);
+}
+
+.mypage_pass {
+	margin: 20px auto; 
+	
+} 
+.modify_texts {
+	  width: 145px;
+      font-size: 15px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+	
+} 
+.mypage_pass td {
+	width: 350px;
+}
+.modify_submit {
+	text-align: center;
+	position: relative;
+	margin-top:15px;
+	/* left: 100px; */
+}
+    /* 버튼 */
+    .modify_sub {
+      width: 80px;
+      height: 30px;
+      font-size: 16px;
+      color: white;
+      background-color: #5467F5;
+      border: 1px solid #5467F5;
+      outline: none;
+    }
+    .modify_btn {
+      width: 80px;
+      height: 30px;
+      font-size: 15px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+    }
+
+
+/* 비밀번호 수정 */
+
+.mypage_passch {
+	margin: auto 100px;
+}
+.mypage_passch table {
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	margin-bottom: 10px;
+	
+	
+}
+.mypage_passch td {
+	width: 218px;
+	border-bottom: 1px solid rgba(158, 155, 155, 0.5);
+}
+.mypage_passch th {
+	width: 197px;
+	border-right: 1px solid rgba(158, 155, 155, 0.5);
+	border-bottom: 1px solid rgba(158, 155, 155, 0.5);
+}
+.mypage_passch td input {
+	  width: 180px;
+      padding-left: 2%;
+      color: #58595B;
+      outline: none;
+      margin-left: 20px;
+	
+}
+
+.re_span02 {
+	font-size: 15px;
+	
+}
+.mypage_passch p {
+	     color: #58595B;
+	
+}
+
+    /* 버튼 */
+    .pass_submitbtn {
+      width: 80px;
+      height: 30px;
+      font-size: 16px;
+      color: white;
+      background-color: #5467F5;
+      border: 1px solid #5467F5;
+      outline: none;
+      margin-left: 112px;
+    }
+    .pass_btn {
+      width: 80px;
+      height: 30px;
+      font-size: 15px;
+      color: #5467F5;
+      background-color: white;
+      border: 1px solid #5467F5;
+      outline: none;
+      margin-left: 8px;
+    }
+.myclick {
+	font-weight: bold;
+}
+.re_span03 {
+	  font-size: 11px;
+      color: #5467F5;	
+      margin-right: 5px;
+	
+}
+
+

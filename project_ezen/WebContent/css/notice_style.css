@@ -1,0 +1,281 @@
+
+.table_wrap{
+   width: 900px; margin:0 auto;
+}
+.table {
+      width: 900px; height: 24px; border-top: 3px solid #666;
+      border-bottom: 1px solid #dbdbdb; color: #777777;
+      margin-top: 80px;
+      margin-bpttom: 30px;
+      
+   
+    }
+    .table th {
+      color: #555555; font-size: 15px; vertical-align: middle; line-height: 27px;
+      height: 54px; background-color: rgb(247, 247, 247);
+   
+      
+    }
+ .table td {
+  height: 54px; vertical-align: middle; line-height: 27px;
+  font-size: 15px; border-left: none;
+
+          
+    }
+    .t01{text-align: center; 
+    }
+     .t02{text-align: center; width: 50%;
+    }
+     .t03{text-align: center;
+    }
+     .t04{text-align: center;
+    }
+     .t05{text-align: center;
+    }
+    
+    .t01_wrap {
+      width: 5px;
+      text-align: center;
+      
+    }
+    .t02_wrap {
+      text-align: left;
+      width: 200px;
+      height: 30px;
+
+    }
+    .t03_wrap {
+      text-align: center;
+      width: 5px;
+      height: 20px;
+
+    }
+     .t04_wrap {
+      text-align: center;
+      width: 20px;
+      height: 20px;
+
+     }
+     .t05_wrap {
+      text-align: center;
+      width: 10px;
+      height: 20px;
+
+     }
+.board_page{text-align: center;
+
+font-size: 25px;
+ margin-bottom:100px; 
+ margin-top: 50px; 
+}
+
+     .ta01_wrap {  text-align: left;
+      width: 100px;
+      height: 20px;
+    }
+      .ta02_wrap {  text-align: left;
+      width: 100px;
+      height: 20px;
+    }
+     .bt_wrap {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a {
+    display: inline-block;
+    min-width: 50px;
+    margin-left: 10px;
+    
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+.bt_wrap a:first-child {
+    margin-left: 650px;
+    
+}
+
+.bt_wrap a.on {
+    background: #ffffff;
+    color: #000000;
+}
+     .search{margin-top: 50px;
+     
+      text-align: center;
+     }
+     
+     .wr_wrap{
+
+            right: 300px;  
+            bottom: -500px
+}
+     
+     .wr_wrap a {
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 10px;
+  
+    margin-bottom: -500px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+.wr_wrap a:first-child {
+    margin-left: 0;
+    
+}
+
+.wr_wrap a.on {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+.board_write
+ {
+   padding: 70px 50px 0;
+   margin-left: 500px;
+     
+
+    
+}
+
+
+
+
+.board_write .title input[type="text"] {
+    width: 60%;
+}
+
+
+
+.cont01 {
+
+  border: 1px solid #d9d9d9; height: 450px; overflow: auto;
+ 
+    color: #666; white-space: pre-line;
+    width:780px;
+    vertical-align:middle;
+    
+}
+
+.table_01{
+	
+	  width: 900px; height: 24px; border-top: 3px solid #666;
+      border-bottom: 1px solid #dbdbdb; color: #777777;
+      margin-top: 80px;
+      margin-bpttom: 30px;
+}
+.table_01 th {
+      color: #555555; font-size: 15px; vertical-align: middle; line-height: 27px;
+      height: 54px; background-color: rgb(247, 247, 247);
+      text-align: left;
+    
+    }
+    .review_board {
+    text-align: center;
+    }
+    
+
+	.reple_box{
+	margin: 0 auto; width: 50px; min-width: 1080px; margin-top: 200px; 
+	margin-bottom: 100px;
+	}
+	.reple_text {
+	width: 800px;
+	height: 150px;
+	font-size: 1rem;
+	 border:1px solid black;
+	 margin-left: 100px;
+	 
+}
+ .rv01_wrap {
+      width: 100px;
+      text-align: center;
+      
+    }
+    .rv02_wrap {
+      text-align: left;
+      width: 200px;
+      height: 30px;
+    }
+
+
+.reple_btn01 {
+	margin-left: 180px;
+	margin-top: -200px;
+           
+	
+}
+ .reple_btn02   {
+	margin-left: -300px;
+	margin-top: 80px;
+           
+	
+}.reple_btn03   {
+	margin-left: -100px;
+	margin-top: -500px;
+           
+	
+}.reple_btn04   {
+	margin-left: -100px;
+	margin-top: 500px;
+           
+	
+}
+  .reple_btn {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.reple_btn a {
+    display: inline-block;
+    min-width: 50px;
+    margin-left: 10px;
+    
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+.reple_btn a:first-child {
+    margin-left: 650px;
+    
+}
+
+.reple_btn a.on {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* notice 추가 */
+.notice_wrap {
+	margin-bottom: 50px;
+}
+.notice_ul {
+	margin-bottom: 50px;
+}
+/* notice_view 추가 */
+.notice_list_wrap {
+	margin-top: 50px; text-align:center;
+}
+.notice_list {
+	width: 80px; margin: 0 auto;
+    height: 28px;
+    font-size: 16px;
+    color: white;
+    background-color: #5467F5;
+    border: 1px solid #5467F5;
+    outline: none;
+}
+/* event 추가 */
+.event_ul {
+	margin-bottom: 50px;
+}
