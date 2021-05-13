@@ -11,6 +11,14 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     <c:import url="/header.jsp" />
       <div class="mypage_header_img"></div>
 
+<%
+String member_idx = (String)session.getAttribute("member_idx");
+System.out.println("member_idx:" + member_idx);
+if(member_idx == null) {
+response.sendRedirect("/project_ezen/member/loginForm.jsp");
+}
+%> 
+
 <!-- 현재 위치 표시 -->
 	<div class="where">
 		<a href="/project_ezen/main.do">H</a>
