@@ -50,7 +50,14 @@ if(uri.indexOf("admin") != -1 && member_idx == null) {
                     
                     </td>
                   </tr>
-            
+            	  <tr style="border-top: none;">
+            	  	<td class="admin_tm_form-left" style="border-top: none;">트레이너 사진</td>
+            	  	<td class="admin_tm_form-right1" style="border-top: none;">
+            	      <input name="trainnerImg" type="text" class="trainner_int" readonly="readonly" title="File Route" id="file_route1" value="">
+		              <label>찾아보기<input type="file" name="filename" onchange="javascript:document.getElementById('file_route1').value=this.value">
+		              </label>
+		            </td>
+            	  </tr>            
                   <tr>
                     <td class="admin_tm-left">소개</td>
                     <td class="admin_tm-right">
@@ -58,16 +65,13 @@ if(uri.indexOf("admin") != -1 && member_idx == null) {
   					</td>
                   </tr>
                  
-        </tbody>
-      </table>
+		        </tbody>
+		     </table>
       
-<input class="tm_btnC" type="button" name="tm_btnC" value="수정" onClick="getPost('01'),getPost('02')"/>
- <a href="/project_ezen/admin_gymmanage/admin_trainner.do?trainner_idx=${dto.trainner_idx }">
- <input class="tm_btnC" type="button" name="tm_btnD" value="목록으로"/> </a>
-  <div class="admin_tmfileup">
- 	<input type="file" name="filename">
-  </div>
-  </form>
+			 <input class="tm_btnC" type="button" name="tm_btnC" value="수정" onClick="getPost('01'),getPost('02')"/>
+			 <a href="/project_ezen/admin_gymmanage/admin_trainner.do?trainner_idx=${dto.trainner_idx }">
+			 <input class="tm_btnC" type="button" name="tm_btnD" value="목록으로"/> </a>
+ 		 </form>
     	
     </div>
   </div>
@@ -86,17 +90,34 @@ if(uri.indexOf("admin") != -1 && member_idx == null) {
   } */
 function getPost(mode) { 
 	var theForm = document.trainner_modify; 
-	if(mode == "01") 
-	{ theForm.method = "post"; 
-	theForm.target = "_self"; 
-	theForm.action = "trainner_modify.do"; } 
+	
+	if(!theForm.trainner_int.value) { 
+		alert("제목을 입력해주세요");
+		theForm.trainner_int.focus();
+		return false;
+		
+	} else if(!theForm.trainnerImg.value) {
+		alert("사진을 선택해 주세요");
+		theForm.trainnerImg.focus();
+		return false;
+	} else {
+		if(mode == "01") { 
+			theForm.method = "post"; 
+			theForm.target = "_self"; 
+			theForm.action = "trainner_modify.do"; 
+		} 
 
-	else if(mode == "02") 
-{ theForm.method = "post"; 
-theForm.target = "_blank"; 
-theForm.enctype = "multipart/form-data"
-theForm.action = "fileupload.do" } 
-theForm.submit(); } 
+		else if(mode == "02") { 
+			theForm.method = "post"; 
+			theForm.target = "_blank"; 
+			theForm.enctype = "multipart/form-data"
+			theForm.action = "fileupload.do" 
+		} 
+		theForm.submit(); 
+	}
+	
+	
+} 
 	</script>
   
 	<!-- trainner_modify 영역 끝 -->

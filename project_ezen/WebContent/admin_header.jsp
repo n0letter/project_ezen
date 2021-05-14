@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/project_ezen/css/admin_notice_style.css">
     <!-- css 아래 것도 가져옴 -->
     <link rel="stylesheet" href="/project_ezen/css/notice_style.css">
-    
+        
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <!-- 달력 -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" />
