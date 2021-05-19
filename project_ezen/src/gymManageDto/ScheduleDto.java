@@ -3,7 +3,7 @@ package gymManageDto;
 import java.util.Date;
 
 
-public class scheduleDto {
+public class ScheduleDto {
 
 	private int gym_schedule_idx;
 	private int gym_schedule_content;
@@ -38,10 +38,10 @@ public class scheduleDto {
 //	private int member_idx;
 
 	
-	public scheduleDto() {  }
+	public ScheduleDto() {  }
 
 
-	public scheduleDto(int gym_schedule_idx, int gym_schedule_content, String gym_mon101, String gym_mon102,
+	public ScheduleDto(int gym_schedule_idx, int gym_schedule_content, String gym_mon101, String gym_mon102,
 			String gym_mon103, String gym_mon104, String gym_tue101, String gym_tue102, String gym_tue103,
 			String gym_tue104, String gym_wed101, String gym_wed102, String gym_wed103, String gym_wed104,
 			String gym_thu101, String gym_thu102, String gym_thu103, String gym_thu104, String gym_fri101,

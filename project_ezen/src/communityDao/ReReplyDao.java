@@ -9,10 +9,10 @@ import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 
 import communityDto.ReviewDto;
-import communityDto.reReplyDto;
+import communityDto.ReReplyDto;
 import project_ezen.DBConnection;
 
-public class reReplyDao {
+public class ReReplyDao {
 	//댓글 쓰기 액션
 	public static void reReply(HttpServletRequest request) {
 		String reReply_review_idx = request.getParameter("reReply_review_idx");//게시물 idx
@@ -68,8 +68,8 @@ public class reReplyDao {
 		}
 	}
 	//이용자페이지 - 이용후기 댓글 수정 페이지 보기
-	public static reReplyDto reReplyView(String reReply_idx) {
-		reReplyDto dto = null;
+	public static ReReplyDto reReplyView(String reReply_idx) {
+		ReReplyDto dto = null;
 		
 		Connection conn = null;    
         PreparedStatement pstmt = null;    //매개변수 입력 편하게 함. 
@@ -92,7 +92,7 @@ public class reReplyDao {
 	            int reReply_reviewMem_idx = rs.getInt("reReply_reviewMem_idx");
 	            int reReply_reviewMem_idx2 = rs.getInt("reReply_reviewMem_idx2");
 	            
-	            dto = new reReplyDto(reReply_idx_int, reReply_id, reReply_name
+	            dto = new ReReplyDto(reReply_idx_int, reReply_id, reReply_name
 	            		, reReply_content, reReply_date, reReply_review_idx, reReply_reviewMem_idx, reReply_reviewMem_idx2);
         		
         	}

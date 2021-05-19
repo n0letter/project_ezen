@@ -1,6 +1,6 @@
 package gymManageDto;
 
-public class trainnerDto {
+public class TrainnerDto {
 
 	private int trainner_idx;
 	private String trainner_int;
@@ -8,10 +8,10 @@ public class trainnerDto {
 	private String trainner_img;
 
 
-	public trainnerDto() {  }
+	public TrainnerDto() {  }
 
 
-	public trainnerDto(int trainner_idx, String trainner_int, String trainner_content, String trainner_img) {
+	public TrainnerDto(int trainner_idx, String trainner_int, String trainner_content, String trainner_img) {
 		super();
 		this.trainner_idx = trainner_idx;
 		this.trainner_int = trainner_int;

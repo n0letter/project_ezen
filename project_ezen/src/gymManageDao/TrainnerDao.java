@@ -12,13 +12,13 @@ import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
 
-import gymManageDto.trainnerDto;
+import gymManageDto.TrainnerDto;
 import project_ezen.DBConnection;
 
-public class trainnerDao {
+public class TrainnerDao {
 
-	public static ArrayList<trainnerDto> list() {
-		ArrayList<trainnerDto> list = new ArrayList<trainnerDto>();
+	public static ArrayList<TrainnerDto> list() {
+		ArrayList<TrainnerDto> list = new ArrayList<TrainnerDto>();
 		Connection conn = null; // 데이터 접근을 위한 객체
 		Statement stmt = null; // 쿼리문 실행을 위한 객체
 		ResultSet rs = null; // 데이터를 가져와 결과값을 얻기 위한 객체
@@ -35,7 +35,7 @@ public class trainnerDao {
 	            String trainner_content = rs.getString("trainner_content");
 	            String trainner_img = rs.getString("trainner_img");
 	            
-	            trainnerDto dto = new trainnerDto(trainner_idx,trainner_int, trainner_content, trainner_img);
+	            TrainnerDto dto = new TrainnerDto(trainner_idx,trainner_int, trainner_content, trainner_img);
 	            
 	            list.add(dto);
 	        }
@@ -47,8 +47,8 @@ public class trainnerDao {
 	}
 	
 //	컨텐츠 페이지
-	public static trainnerDto trainner_modifyView(String trainner_idx) {
-		trainnerDto dto = null;
+	public static TrainnerDto trainner_modifyView(String trainner_idx) {
+		TrainnerDto dto = null;
 		Connection conn = null;    
         PreparedStatement pstmt = null;    //매개변수 입력 편하게 함. 
         ResultSet rs = null;    
@@ -66,7 +66,7 @@ public class trainnerDao {
 	            String trainner_content = rs.getString("trainner_content");
 	            String trainner_img = rs.getString("trainner_img");
 	            
-	            dto = new trainnerDto(trainner_idx_int, trainner_int, trainner_content, trainner_img);
+	            dto = new TrainnerDto(trainner_idx_int, trainner_int, trainner_content, trainner_img);
         		
         	}
         }

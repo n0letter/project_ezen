@@ -9,17 +9,17 @@ import java.util.ArrayList;
 import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 
-import gymManageDto.scheduleDto;
+import gymManageDto.ScheduleDto;
 import project_ezen.DBConnection;
 
 
-public class scheduleDao {
+public class ScheduleDao {
 
 //	컨텐츠 페이지
-	public static scheduleDto scheduleView(HttpServletRequest request) {
+	public static ScheduleDto scheduleView(HttpServletRequest request) {
 		Connection conn = null; 
 	    PreparedStatement pstmt = null; 
-		scheduleDto dto = null;
+		ScheduleDto dto = null;
         String schedule_idx = request.getParameter("member_idx");//매개변수 입력 편하게 함. 
         ResultSet rs = null;    
         System.out.println("관리자 번호 : " + schedule_idx);
@@ -67,7 +67,7 @@ public class scheduleDao {
 	    
 	            System.out.println("schedule_content : " + gym_schedule_contents);
 	            
-	            dto = new scheduleDto( gym_schedule_idx, gym_schedule_contents,gym_mon101,gym_mon102,gym_mon103,gym_mon104,gym_tue101,gym_tue102,gym_tue103,gym_tue104,gym_wed101,gym_wed102,gym_wed103,gym_wed104,gym_thu101,gym_thu102,gym_thu103,gym_thu104,gym_fri101,gym_fri102,gym_fri103,gym_fri104,gym_sat101,gym_sat102,gym_sat103,gym_sat104,gym_sun101,gym_sun102,gym_sun103,gym_sun104 );
+	            dto = new ScheduleDto( gym_schedule_idx, gym_schedule_contents,gym_mon101,gym_mon102,gym_mon103,gym_mon104,gym_tue101,gym_tue102,gym_tue103,gym_tue104,gym_wed101,gym_wed102,gym_wed103,gym_wed104,gym_thu101,gym_thu102,gym_thu103,gym_thu104,gym_fri101,gym_fri102,gym_fri103,gym_fri104,gym_sat101,gym_sat102,gym_sat103,gym_sat104,gym_sun101,gym_sun102,gym_sun103,gym_sun104 );
         	}
         
         	int result = pstmt.executeUpdate();
@@ -80,10 +80,10 @@ public class scheduleDao {
 		return dto;
 	}
 
-	public static scheduleDto scheduleViewmain(HttpServletRequest request) {
+	public static ScheduleDto scheduleViewmain(HttpServletRequest request) {
 		Connection conn = null; 
 	    PreparedStatement pstmt = null; 
-		scheduleDto dto = null;
+		ScheduleDto dto = null;
         ResultSet rs = null;    
        
         try {
@@ -127,7 +127,7 @@ public class scheduleDao {
 	    
 	            System.out.println("schedule_content : " + gym_schedule_contents);
 	            
-	            dto = new scheduleDto( gym_schedule_idx, gym_schedule_contents,gym_mon101,gym_mon102,gym_mon103,gym_mon104,gym_tue101,gym_tue102,gym_tue103,gym_tue104,gym_wed101,gym_wed102,gym_wed103,gym_wed104,gym_thu101,gym_thu102,gym_thu103,gym_thu104,gym_fri101,gym_fri102,gym_fri103,gym_fri104,gym_sat101,gym_sat102,gym_sat103,gym_sat104,gym_sun101,gym_sun102,gym_sun103,gym_sun104 );
+	            dto = new ScheduleDto( gym_schedule_idx, gym_schedule_contents,gym_mon101,gym_mon102,gym_mon103,gym_mon104,gym_tue101,gym_tue102,gym_tue103,gym_tue104,gym_wed101,gym_wed102,gym_wed103,gym_wed104,gym_thu101,gym_thu102,gym_thu103,gym_thu104,gym_fri101,gym_fri102,gym_fri103,gym_fri104,gym_sat101,gym_sat102,gym_sat103,gym_sat104,gym_sun101,gym_sun102,gym_sun103,gym_sun104 );
         	}
         
         	int result = pstmt.executeUpdate();

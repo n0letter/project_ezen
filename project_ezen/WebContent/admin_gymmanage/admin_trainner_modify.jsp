@@ -82,12 +82,6 @@ if(uri.indexOf("admin") != -1 && member_idx == null) {
 		<!-- <i class="fa fa-arrow-up" aria-hidden="true"></i> -->
 	</span>  
   <script> 
-/*   function checkImg() {
-	  if(!trainner_modify.filename.value){
-		  alert("사진을 선택해 주세요.")
-		  return false;
-	  }
-  } */
 function getPost(mode) { 
 	var theForm = document.trainner_modify; 
 	

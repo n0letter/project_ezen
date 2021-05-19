@@ -9,17 +9,17 @@ import java.util.ArrayList;
 import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 
-import gymManageDto.schedule2Dto;
+import gymManageDto.Schedule2Dto;
 import project_ezen.DBConnection;
 
 
-public class schedule2Dao {
+public class Schedule2Dao {
 
 //	컨텐츠 페이지
-	public static schedule2Dto scheduleView2(HttpServletRequest request) {
+	public static Schedule2Dto scheduleView2(HttpServletRequest request) {
 		Connection conn = null;  
 		PreparedStatement pstmt = null; 
-		schedule2Dto dto2 = null;
+		Schedule2Dto dto2 = null;
         String schedule2_idx = request.getParameter("member_idx");//매개변수 입력 편하게 함. 
         ResultSet rs = null;    
         System.out.println("관리자 번호 : " + schedule2_idx);
@@ -64,7 +64,7 @@ public class schedule2Dao {
 	            String gym_sun203 = rs.getString("gym_sun203");
 	            String gym_sun204 = rs.getString("gym_sun204");
 	            
-	            dto2 = new schedule2Dto( gym_schedule2_idx, gym_schedule2_content, gym_mon201,gym_mon202,gym_mon203,gym_mon204,gym_tue201,gym_tue202,gym_tue203,gym_tue204,gym_wed201,gym_wed202,gym_wed203,gym_wed204,gym_thu201,gym_thu202,gym_thu203,gym_thu204,gym_fri201,gym_fri202,gym_fri203,gym_fri204,gym_sat201,gym_sat202,gym_sat203,gym_sat204,gym_sun201,gym_sun202,gym_sun203,gym_sun204);
+	            dto2 = new Schedule2Dto( gym_schedule2_idx, gym_schedule2_content, gym_mon201,gym_mon202,gym_mon203,gym_mon204,gym_tue201,gym_tue202,gym_tue203,gym_tue204,gym_wed201,gym_wed202,gym_wed203,gym_wed204,gym_thu201,gym_thu202,gym_thu203,gym_thu204,gym_fri201,gym_fri202,gym_fri203,gym_fri204,gym_sat201,gym_sat202,gym_sat203,gym_sat204,gym_sun201,gym_sun202,gym_sun203,gym_sun204);
         	}
         	int result = pstmt.executeUpdate();
         }
@@ -75,10 +75,10 @@ public class schedule2Dao {
 		return dto2;
 	}	
 	
-	public static schedule2Dto scheduleViewmain2(HttpServletRequest request) {
+	public static Schedule2Dto scheduleViewmain2(HttpServletRequest request) {
 		Connection conn = null;  
 		PreparedStatement pstmt = null; 
-		schedule2Dto dto2 = null;
+		Schedule2Dto dto2 = null;
         ResultSet rs = null;    
         try {
         	conn = DBConnection.getConnection();
@@ -120,7 +120,7 @@ public class schedule2Dao {
 	            String gym_sun203 = rs.getString("gym_sun203");
 	            String gym_sun204 = rs.getString("gym_sun204");
 	            
-	            dto2 = new schedule2Dto( gym_schedule2_idx, gym_schedule2_content, gym_mon201,gym_mon202,gym_mon203,gym_mon204,gym_tue201,gym_tue202,gym_tue203,gym_tue204,gym_wed201,gym_wed202,gym_wed203,gym_wed204,gym_thu201,gym_thu202,gym_thu203,gym_thu204,gym_fri201,gym_fri202,gym_fri203,gym_fri204,gym_sat201,gym_sat202,gym_sat203,gym_sat204,gym_sun201,gym_sun202,gym_sun203,gym_sun204);
+	            dto2 = new Schedule2Dto( gym_schedule2_idx, gym_schedule2_content, gym_mon201,gym_mon202,gym_mon203,gym_mon204,gym_tue201,gym_tue202,gym_tue203,gym_tue204,gym_wed201,gym_wed202,gym_wed203,gym_wed204,gym_thu201,gym_thu202,gym_thu203,gym_thu204,gym_fri201,gym_fri202,gym_fri203,gym_fri204,gym_sat201,gym_sat202,gym_sat203,gym_sat204,gym_sun201,gym_sun202,gym_sun203,gym_sun204);
         	}
         	int result = pstmt.executeUpdate();
         }

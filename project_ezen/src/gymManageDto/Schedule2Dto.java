@@ -2,7 +2,7 @@ package gymManageDto;
 
 import java.util.Date;
 
-public class schedule2Dto {
+public class Schedule2Dto {
 
 	private int gym_schedule2_idx;
 	private int gym_schedule2_content;
@@ -35,9 +35,9 @@ public class schedule2Dto {
 	private String gym_sun203;
 	private String gym_sun204;
 	
-	public schedule2Dto() {  }
+	public Schedule2Dto() {  }
 
-	public schedule2Dto(int gym_schedule2_idx, int gym_schedule2_content, String gym_mon201, String gym_mon202,
+	public Schedule2Dto(int gym_schedule2_idx, int gym_schedule2_content, String gym_mon201, String gym_mon202,
 			String gym_mon203, String gym_mon204, String gym_tue201, String gym_tue202, String gym_tue203,
 			String gym_tue204, String gym_wed201, String gym_wed202, String gym_wed203, String gym_wed204,
 			String gym_thu201, String gym_thu202, String gym_thu203, String gym_thu204, String gym_fri201,

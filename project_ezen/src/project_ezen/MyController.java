@@ -17,18 +17,18 @@ import communityDao.EventDao;
 import communityDao.NoticeDao;
 import communityDao.RecruitmentDao;
 import communityDao.ReviewDao;
-import communityDao.reReplyDao;
+import communityDao.ReReplyDao;
 import communityDto.EventDto;
 import communityDto.NoticeDto;
 import communityDto.RecruitmentDto;
 import communityDto.ReviewDto;
-import communityDto.reReplyDto;
-import gymManageDao.schedule2Dao;
-import gymManageDao.scheduleDao;
-import gymManageDao.trainnerDao;
-import gymManageDto.schedule2Dto;
-import gymManageDto.scheduleDto;
-import gymManageDto.trainnerDto;
+import communityDto.ReReplyDto;
+import gymManageDao.Schedule2Dao;
+import gymManageDao.ScheduleDao;
+import gymManageDao.TrainnerDao;
+import gymManageDto.Schedule2Dto;
+import gymManageDto.ScheduleDto;
+import gymManageDto.TrainnerDto;
 import memDao.MemberDao;
 import memDao.OutMemberDao;
 import memDto.MemberDto;
@@ -73,10 +73,10 @@ public class MyController extends HttpServlet {
 		}
 		else if (command.equals("main.do")) { // 메인 페이지
 			//메인페이지 스케줄 정보 불러오기
-			scheduleDto dto = scheduleDao.scheduleViewmain(request);
+			ScheduleDto dto = ScheduleDao.scheduleViewmain(request);
 			request.setAttribute("dto", dto);
 			
-			schedule2Dto dto2 = schedule2Dao.scheduleViewmain2(request);
+			Schedule2Dto dto2 = Schedule2Dao.scheduleViewmain2(request);
 			request.setAttribute("dto2", dto2);			
 
 			jspPage = "/main.jsp";
@@ -367,7 +367,7 @@ public class MyController extends HttpServlet {
 				//후기 삭제
 				ReviewDao.myReviewDelete( reviewMember_idx );
 				//삭제되는 후기에 달린 댓글도 삭제 
-				reReplyDao.myReReply_delete(reReply_reviewMem_idx2);	
+				ReReplyDao.myReReply_delete(reReply_reviewMem_idx2);	
 				
 				//문의 삭제
 				InquiryDao.myInquiryDelete(inq_member_idx);
@@ -389,10 +389,10 @@ public class MyController extends HttpServlet {
 		// 프로그램 - 스케줄 페이지 보기
 		else if(command.equals("pro_schedule.do")) { 
 			System.out.println("스케줄 컨트롤러");
-			scheduleDto dto = scheduleDao.scheduleViewmain(request);
+			ScheduleDto dto = ScheduleDao.scheduleViewmain(request);
 			request.setAttribute("dto", dto);
 			
-			schedule2Dto dto2 = schedule2Dao.scheduleViewmain2(request);
+			Schedule2Dto dto2 = Schedule2Dao.scheduleViewmain2(request);
 			request.setAttribute("dto2", dto2);	
 			
 			jspPage = "/program/pro_schedule.jsp";
@@ -613,10 +613,10 @@ public class MyController extends HttpServlet {
 		else if(command.equals("admin_schedule.do")) { 
 			//DTO 레코드 정보
 			System.out.println("시간표 :" );
-			scheduleDto dto = scheduleDao.scheduleView(request);
+			ScheduleDto dto = ScheduleDao.scheduleView(request);
 			request.setAttribute("dto", dto);
 			
-			schedule2Dto dto2 = schedule2Dao.scheduleView2(request);
+			Schedule2Dto dto2 = Schedule2Dao.scheduleView2(request);
 			request.setAttribute("dto2", dto2);
 			
 			jspPage = "/admin_gymmanage/admin_schedule.jsp";
@@ -624,7 +624,7 @@ public class MyController extends HttpServlet {
 		//트레이너 페이지 보기
 		else if(command.equals("trainner.do")) { 
 			
-		    ArrayList<trainnerDto> list = trainnerDao.list();
+		    ArrayList<TrainnerDto> list = TrainnerDao.list();
 		    request.setAttribute("list", list);
 		    
 			jspPage = "/intro/trainner.jsp";
@@ -634,7 +634,7 @@ public class MyController extends HttpServlet {
 	
 		else if(command.equals("admin_trainner.do")) { 
 		
-		    ArrayList<trainnerDto> list = trainnerDao.list();
+		    ArrayList<TrainnerDto> list = TrainnerDao.list();
 		    request.setAttribute("list", list);
 		    
 			jspPage = "/admin_gymmanage/admin_trainner.jsp";
@@ -659,7 +659,7 @@ public class MyController extends HttpServlet {
 			String trainner_content = request.getParameter("trainner_content");
 			String trainner_img = request.getParameter("filename");
 	
-			trainnerDao.trainner_write(trainner_int, trainner_content, trainner_img);
+			TrainnerDao.trainner_write(trainner_int, trainner_content, trainner_img);
 			System.out.println("업로드");
 		
 			response.sendRedirect("/project_ezen/admin_gym_manage/admin_trainner.do");
@@ -669,7 +669,7 @@ public class MyController extends HttpServlet {
 			String trainner_idx = request.getParameter("trainner_idx");
 		
 			
-			trainnerDao.trainner_delete( trainner_idx );
+			TrainnerDao.trainner_delete( trainner_idx );
 			
 			response.sendRedirect("/project_ezen/admin_member/admin_trainner.do");
 		}
@@ -677,7 +677,7 @@ public class MyController extends HttpServlet {
 		//트레이너 수정페이지로 이동
 		else if(command.equals("modify_move.do")) { 
 			String trainner_idx = request.getParameter("trainner_idx");
-			trainnerDto dto = trainnerDao.trainner_modifyView( trainner_idx );
+			TrainnerDto dto = TrainnerDao.trainner_modifyView( trainner_idx );
 			request.setAttribute("dto", dto);
 			
 			
@@ -700,7 +700,7 @@ public class MyController extends HttpServlet {
 
 
 		
-			trainnerDao.trainner_modify( trainner_idx, trainner_int, trainner_content, trainner_img  );
+			TrainnerDao.trainner_modify( trainner_idx, trainner_int, trainner_content, trainner_img  );
 			
 			response.sendRedirect("/project_ezen/admin_gymmanage/admin_trainner.do");
 		}
@@ -710,7 +710,7 @@ public class MyController extends HttpServlet {
 		{
 			String gym_schedule_idx = request.getParameter("gym_schedule_idx");
 			System.out.println("schedule_update:" + gym_schedule_idx);
-			scheduleDao.schedule_update(request);
+			ScheduleDao.schedule_update(request);
 		
 
 			response.sendRedirect("/project_ezen/admin_member/member_list.do?page=1");		
@@ -719,7 +719,7 @@ public class MyController extends HttpServlet {
 		else if(command.equals("schedule2_update.do")) 
 		{
 			String gym_schedule2_idx = request.getParameter("gym_schedule2_idx");
-			schedule2Dao.schedule2_update(request);
+			Schedule2Dao.schedule2_update(request);
 			response.sendRedirect("/project_ezen/admin_member/member_list.do?page=1");	
 		}
 		
@@ -1532,7 +1532,7 @@ public class MyController extends HttpServlet {
 			request.setAttribute("dto", dto);
 			
 			//댓글 목록
-			ArrayList<reReplyDto> reply_list = ReviewDao.reply_list( review_idx );
+			ArrayList<ReReplyDto> reply_list = ReviewDao.reply_list( review_idx );
 			request.setAttribute("reply_list", reply_list);
 			
 			jspPage = "/admin_community/adminReview_view.jsp";
@@ -1549,7 +1549,7 @@ public class MyController extends HttpServlet {
 			request.setAttribute("dto", dto);
 			
 			//댓글 목록
-			ArrayList<reReplyDto> reply_list = ReviewDao.reply_list( review_idx );
+			ArrayList<ReReplyDto> reply_list = ReviewDao.reply_list( review_idx );
 			request.setAttribute("reply_list", reply_list);
 			
 			jspPage = "/community/review_view.jsp";
@@ -1586,7 +1586,7 @@ public class MyController extends HttpServlet {
 			ReviewDao.reviewDelete( review_idx );
 			
 			//후기에 달린 댓글 삭제
-			reReplyDao.reReply_delete(reReply_review_idx);
+			ReReplyDao.reReply_delete(reReply_review_idx);
 			
 			response.sendRedirect("/project_ezen/community/review.do?page=1");
 		}
@@ -1599,7 +1599,7 @@ public class MyController extends HttpServlet {
 			ReviewDao.reviewDelete( review_idx );
 			
 			//후기에 달린 댓글 삭제
-			reReplyDao.reReply_delete(reReply_review_idx);
+			ReReplyDao.reReply_delete(reReply_review_idx);
 			
 			response.sendRedirect("/project_ezen/admin_community/adminReview.do?page=1");
 		}
@@ -1614,7 +1614,7 @@ public class MyController extends HttpServlet {
 		else if(command.equals("reReply.do")) { 
 			String reReply_review_idx = request.getParameter("reReply_review_idx");
 			
-			reReplyDao.reReply(request);
+			ReReplyDao.reReply(request);
 			//댓글 수 +1
 			ReviewDao.reReplyHitAdd(request);
 			
@@ -1627,7 +1627,7 @@ public class MyController extends HttpServlet {
 			System.out.println("reReply_idx:"+reReply_idx);
 			System.out.println("review_idx:"+reReply_review_idx);
 			
-			reReplyDao.reply_delete( reReply_idx );
+			ReReplyDao.reply_delete( reReply_idx );
 			//댓글 수 -1
 			ReviewDao.reReplyHitMinus(request);
 			
@@ -1640,7 +1640,7 @@ public class MyController extends HttpServlet {
 			String reReply_idx = request.getParameter("reReply_idx");
 			
 			System.out.println("reReply_idx:"+reReply_idx);
-			reReplyDto dto = reReplyDao.reReplyView( reReply_idx );
+			ReReplyDto dto = ReReplyDao.reReplyView( reReply_idx );
 			request.setAttribute("dto", dto);
 			
 			jspPage = "/community/reReply_modify.jsp";
@@ -1654,7 +1654,7 @@ public class MyController extends HttpServlet {
 			
 			System.out.println("reReply_idx:"+reReply_idx);
 			
-			reReplyDao.reReplyModify( reReply_idx, reReply_review_idx, reReply_content  );
+			ReReplyDao.reReplyModify( reReply_idx, reReply_review_idx, reReply_content  );
 			
 			response.sendRedirect("/project_ezen/community/review_view.do?review_idx="+reReply_review_idx);
 		}		
@@ -1665,7 +1665,7 @@ public class MyController extends HttpServlet {
 			System.out.println("reReply_idx:"+reReply_idx);
 			System.out.println("review_idx:"+reReply_review_idx);
 			
-			reReplyDao.reply_delete( reReply_idx );
+			ReReplyDao.reply_delete( reReply_idx );
 			//댓글 수 -1
 			ReviewDao.reReplyHitMinus(request);
 			

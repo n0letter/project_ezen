@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import communityDto.NoticeDto;
 import communityDto.ReviewDto;
-import communityDto.reReplyDto;
+import communityDto.ReReplyDto;
 import memDto.MemberDto;
 import project_ezen.DBConnection;
 
@@ -222,8 +222,8 @@ public class ReviewDao {
 		
 	}	
 	//댓글 목록
-	public static ArrayList<reReplyDto> reply_list(String review_idx) {
-		ArrayList<reReplyDto> reply_list = new ArrayList<reReplyDto>();
+	public static ArrayList<ReReplyDto> reply_list(String review_idx) {
+		ArrayList<ReReplyDto> reply_list = new ArrayList<ReReplyDto>();
 		
 		Connection conn = null; 
 		PreparedStatement pstmt = null;
@@ -255,7 +255,7 @@ public class ReviewDao {
 	            System.out.println("reReply_name"+reReply_name);
 	            System.out.println("reReply_reviewMem_idx"+reReply_reviewMem_idx);
 	            
-	            reReplyDto dto = new reReplyDto(reReply_idx, reReply_id, reReply_name, reReply_content
+	            ReReplyDto dto = new ReReplyDto(reReply_idx, reReply_id, reReply_name, reReply_content
 	            		, reReply_date, reReply_review_idx, reReply_reviewMem_idx, reReply_reviewMem_idx2);
 	            
 	            reply_list.add(dto);

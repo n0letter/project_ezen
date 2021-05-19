@@ -2,7 +2,7 @@ package communityDto;
 
 import java.util.Date;
 
-public class reReplyDto {
+public class ReReplyDto {
 	private int reReply_idx;
 	private String reReply_id;
 	private String reReply_name;
@@ -12,9 +12,9 @@ public class reReplyDto {
 	private int reReply_reviewMem_idx;//댓글 작성자의 idx
 	private int reReply_reviewMem_idx2;//본 게시글 작성자의 idx
 	
-	public reReplyDto() {  }
+	public ReReplyDto() {  }
 
-	public reReplyDto(int reReply_idx, String reReply_id, String reReply_name, String reReply_content,
+	public ReReplyDto(int reReply_idx, String reReply_id, String reReply_name, String reReply_content,
 			Date reReply_date, int reReply_review_idx, int reReply_reviewMem_idx, int reReply_reviewMem_idx2) {
 		super();
 		this.reReply_idx = reReply_idx;
