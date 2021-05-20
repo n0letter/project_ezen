@@ -31,7 +31,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
   <p>굿초이스 회원님의 리얼 다이어트 후기</p>
   <div id="pdAllWrap">
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/71/1232529263_EAB3A0EB8F99ED988420EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
@@ -40,7 +40,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     </div>
   
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/72/1066163157_EC9DB4EBAFB8ECA78420EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
@@ -49,7 +49,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     </div>
 
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/73/1363918959_EAB68CEAB8B0ECA09520EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
@@ -58,7 +58,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     </div>
     
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/75/873967950_ED9788EC9CA4ECA09520EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
@@ -67,7 +67,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     </div>
     
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/76/1552250578_EAB980EC8898EBAFB820EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
@@ -76,7 +76,7 @@ response.setDateHeader("Expires", 0L); // Do not cache in proxy server
     </div>  
         
     <div class="pd-wrap">
-      <a href="/project_ezen/notice/review.jsp">
+      <a href="/project_ezen/community/review.do?page=1">
         <div class="pd-img"><img src="http://www.hellogym.com/bizdemo42107/component/board/board_14/u_image/74/2020952978_EBB0B1ECA780ED989C20EC8DB8EB84A4EC9DBC-01.jpg" alt="">
         </div>
         <div class="pd-title">
